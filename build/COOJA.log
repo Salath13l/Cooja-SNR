@@ -1,0 +1,961 @@
+[19:33:24 - main] [Cooja.java:3177] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[19:33:24 - AWT-EventQueue-0] [Cooja.java:2861] [INFO] - External tools default settings: /external_tools_linux_64.config
+[19:33:24 - AWT-EventQueue-0] [Cooja.java:2891] [INFO] - External tools user settings: /home/ba/.cooja.user.properties
+[19:35:21 - AWT-EventQueue-0] [Simulation.java:420] [INFO] - Simulation random seed: 0
+[19:35:22 - AWT-EventQueue-0] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[19:35:33 - AWT-EventQueue-0] [MspMote.java:233] [INFO] - Loading firmware from: /home/ba/ba_workspace/contiki-snr/examples/rime/example-runicast.sky
+[19:35:44 - AWT-EventQueue-0] [RealSimFile.java:278] [INFO] - Reading /home/ba/my_realsim/test.rs
+[19:35:44 - AWT-EventQueue-0] [RealSimFile.java:240] [INFO] - Using type of selected  mote type fore node 0: sky1 / Sky Mote Type #sky1
+[19:35:44 - AWT-EventQueue-0] [RealSimFile.java:234] [INFO] - Using type of existing node for node 1: sky1 / Sky Mote Type #sky1
+[19:35:44 - AWT-EventQueue-0] [RealSimFile.java:240] [INFO] - Using type of selected  mote type fore node 2: sky1 / Sky Mote Type #sky1
+[19:35:44 - AWT-EventQueue-0] [RealSimFile.java:240] [INFO] - Using type of selected  mote type fore node 3: sky1 / Sky Mote Type #sky1
+[19:35:44 - AWT-EventQueue-0] [RealSimFile.java:383] [INFO] - RealSim imported 10 events
+[19:35:44 - AWT-EventQueue-0] [RealSim.java:63] [INFO] - Adding mote: 0
+[19:35:44 - AWT-EventQueue-0] [MspMote.java:233] [INFO] - Loading firmware from: /home/ba/ba_workspace/contiki-snr/examples/rime/example-runicast.sky
+[19:35:44 - AWT-EventQueue-0] [RealSim.java:60] [INFO] - Mote 1 already exists.
+[19:35:44 - AWT-EventQueue-0] [RealSim.java:63] [INFO] - Adding mote: 2
+[19:35:44 - AWT-EventQueue-0] [MspMote.java:233] [INFO] - Loading firmware from: /home/ba/ba_workspace/contiki-snr/examples/rime/example-runicast.sky
+[19:35:44 - AWT-EventQueue-0] [RealSim.java:63] [INFO] - Adding mote: 3
+[19:35:44 - AWT-EventQueue-0] [MspMote.java:233] [INFO] - Loading firmware from: /home/ba/ba_workspace/contiki-snr/examples/rime/example-runicast.sky
+[19:35:44 - AWT-EventQueue-0] [RealSim.java:145] [INFO] - Setting edge: 1 (1) - 0 (0) PRR: 0.75 RSSI: -10.0 LQI: 100
+[19:35:44 - AWT-EventQueue-0] [RealSim.java:145] [INFO] - Setting edge: 2 (2) - 0 (0) PRR: 0.75 RSSI: -10.0 LQI: 100
+[19:35:44 - AWT-EventQueue-0] [RealSim.java:145] [INFO] - Setting edge: 3 (3) - 0 (0) PRR: 0.25 RSSI: -10.0 LQI: 100
+[19:35:44 - AWT-EventQueue-0] [RealSim.java:145] [INFO] - Setting edge: 0 (0) - 1 (1) PRR: 0.75 RSSI: -10.0 LQI: 100
+[19:35:44 - AWT-EventQueue-0] [RealSim.java:145] [INFO] - Setting edge: 0 (0) - 2 (2) PRR: 0.25 RSSI: -10.0 LQI: 100
+[19:35:44 - AWT-EventQueue-0] [RealSim.java:145] [INFO] - Setting edge: 0 (0) - 3 (3) PRR: 0.25 RSSI: -10.0 LQI: 100
+[19:35:45 - Thread-1] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1413308145424
+[19:35:45 - Thread-1] [RealSim.java:60] [INFO] - Mote 0 already exists.
+[19:35:45 - Thread-1] [RealSim.java:60] [INFO] - Mote 1 already exists.
+[19:35:45 - Thread-1] [RealSim.java:60] [INFO] - Mote 2 already exists.
+[19:35:45 - Thread-1] [RealSim.java:60] [INFO] - Mote 3 already exists.
+[19:35:45 - Thread-1] [RealSim.java:145] [INFO] - Setting edge: 1 (1) - 0 (0) PRR: 0.75 RSSI: -10.0 LQI: 100
+[19:35:45 - Thread-1] [RealSim.java:145] [INFO] - Setting edge: 2 (2) - 0 (0) PRR: 0.75 RSSI: -10.0 LQI: 100
+[19:35:45 - Thread-1] [RealSim.java:145] [INFO] - Setting edge: 3 (3) - 0 (0) PRR: 0.25 RSSI: -10.0 LQI: 100
+[19:35:45 - Thread-1] [RealSim.java:145] [INFO] - Setting edge: 0 (0) - 1 (1) PRR: 0.75 RSSI: -10.0 LQI: 100
+[19:35:45 - Thread-1] [RealSim.java:145] [INFO] - Setting edge: 0 (0) - 2 (2) PRR: 0.25 RSSI: -10.0 LQI: 100
+[19:35:45 - Thread-1] [RealSim.java:145] [INFO] - Setting edge: 0 (0) - 3 (3) PRR: 0.25 RSSI: -10.0 LQI: 100
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:48 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:49 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:50 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:50 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:50 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:50 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:50 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:50 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:50 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:50 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:50 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:50 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:50 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:50 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:53 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:53 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:53 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:53 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:53 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:53 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:53 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:53 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:55 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:55 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:55 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:55 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:55 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:55 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:55 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:55 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:55 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:55 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:55 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:55 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:57 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:57 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:57 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:57 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:35:57 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:35:57 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:35:57 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:35:57 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:01 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:02 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:04 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:04 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:04 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:04 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:04 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:04 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:04 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:04 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:04 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:04 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:04 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:04 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:05 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:05 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:05 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:05 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:05 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:05 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:05 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:05 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:06 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:06 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:06 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:06 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:07 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:09 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:09 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:09 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:09 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:09 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:09 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:09 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:09 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:10 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:10 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:10 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:10 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:11 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:11 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:11 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:11 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:11 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:11 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:11 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:11 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:13 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:13 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:13 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:13 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:13 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:13 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:13 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:13 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:13 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:13 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:13 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:13 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:14 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:15 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:16 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:19 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:20 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:20 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:20 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:20 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:20 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:20 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:20 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:20 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:20 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:20 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:20 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:20 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:22 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:22 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:22 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:22 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:22 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:22 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:22 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:22 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:24 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:25 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:28 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:28 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:28 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:28 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:28 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:28 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:28 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:28 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:28 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:28 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:28 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:28 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:29 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:29 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:29 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:29 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:29 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:29 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:29 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:29 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:30 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:31 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:31 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:31 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:31 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:32 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:32 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:32 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:32 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:32 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:32 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:32 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:32 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:33 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:33 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:33 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:33 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:33 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:33 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:33 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:33 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:33 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:33 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:33 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:33 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:35 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:36 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:37 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:37 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:37 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:37 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:37 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:37 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:37 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:37 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:39 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:40 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:40 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:40 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:40 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:40 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:40 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:40 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:40 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:40 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:40 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:40 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:40 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:41 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:42 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:42 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:42 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:42 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:43 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:43 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:43 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:43 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:44 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:44 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:44 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:44 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:44 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:44 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:44 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:44 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:44 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:44 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:44 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:44 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:46 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:46 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:46 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:46 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:46 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:46 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:46 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:46 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:46 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:46 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:46 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:46 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:47 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:49 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:49 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:49 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:49 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:49 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:49 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:49 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:49 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:49 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:49 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:49 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:49 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:51 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:51 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:51 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:51 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:52 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:53 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:53 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:53 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:53 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:53 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:53 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:53 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:53 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:53 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:53 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:53 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:53 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:54 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:54 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:54 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:54 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:56 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:56 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:56 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:56 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:56 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:56 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:56 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:56 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:57 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:57 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:57 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:57 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:57 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:57 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:57 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:57 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:57 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:57 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:57 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:57 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:58 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:58 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:58 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:58 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:36:58 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:36:58 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:36:58 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:36:58 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:00 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:01 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:02 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:04 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:04 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:04 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:04 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:05 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:05 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:05 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:05 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:06 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:06 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:06 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:06 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:07 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:07 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:07 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:07 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:07 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:07 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:07 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:07 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:08 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:09 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:09 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:09 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:09 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:09 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:09 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:09 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:09 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:09 - Thread-1] [DirectedGraphMedium.java:308] [INFO] - Already recieving
+[19:37:09 - Thread-1] [DirectedGraphMedium.java:320] [INFO] - Noise: -1.0
+[19:37:09 - Thread-1] [DirectedGraphMedium.java:367] [INFO] - Threshold: 0.0
+[19:37:09 - Thread-1] [DirectedGraphMedium.java:379] [INFO] - And we can't use this connection
+[19:37:09 - Thread-1] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1413308229913	Duration: 84489 ms	Simulated time 180764 ms	Ratio 2.1394974493721075
